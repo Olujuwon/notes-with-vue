@@ -69,8 +69,7 @@ const handleSubmitNote =()=>{
               @click="handleSubmitNote">Done</button>
     </div>
     <textarea
-        value='newNote'
-        v-model='newNote'
+        v-model="newNote"
     placeholder='Note here'
     class='border-0 outline-0 py-4 px-3 w-full h-[calc(100vh-116px)]
     resize-none active:outline-0 active:border-0 text-[color:var(--color-text)] rounded bg-transparent text-pretty'/>
